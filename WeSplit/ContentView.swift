@@ -92,6 +92,7 @@ struct ContentView: View {
                         )
                         .font(.headline)
                         .fontWeight(.bold)
+                        .foregroundStyle(tipPercentage == 0 ? .red : .primary)
                     }
                 }
                 .scrollContentBackground(.hidden)
